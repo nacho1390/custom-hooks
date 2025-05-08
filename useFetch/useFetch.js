@@ -2,9 +2,6 @@ import { useCallback, useEffect, useState } from "react"
 
 const localCache = {  }
 
-
-
-
 export const useFetch = ( url ) => {
 
     const [state, setState] = useState({
